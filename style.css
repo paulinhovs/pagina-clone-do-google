@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    font-family: Roboto,RobotoDraft,Arial,sans-serif;
+    background-color: black;
+    color: wheat;
+}
+.cabecalho {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 35px;
+    margin-top: 12px;
+}
+.cabecalho a{
+    text-decoration: none;
+    margin-right: 17px;
+    font-size: 14px;
+    color: #5e5f63; 
+}
+.cabecalho img{
+    margin-left: 15px;
+    margin-right: 3px;
+}
+.login a{
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    background-color:#1a73e9;
+    border-radius: 5px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.busca{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 585px;
+    height: 46px;
+    border: 1px solid #e0e0e0;
+    border-radius: 45px;
+    margin-top: 24px;
+}
+.lupa{
+    width: 25px;
+}
+.microfone{
+    width: 15px;
+    margin-right: 10px;  
+}
+.conteudo input{
+    width: 450px;
+    border: 0px;
+}
+.botao{
+    display:flex;
+    justify-content: center;
+    margin-top:34px;
+}
+.botao a{
+    margin-left: 17px;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background-color:#f8f9fc;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #5e5f63;
+}
+
+footer a{
+    text-decoration: none;
+    color: #5e5f63;
+}
+.rodape{
+    height: 95px;
+    background-color: #f2f2f2;
+    margin-top: 200px;
+}
+.linha{
+    border-bottom: 1px solid #aaa7ae;
+    padding: 0px;
+}
+.brasil{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #5e5f63;
+}
+.container, .container1, .container2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 9px;
+    padding-left: 8px;
+    padding-right: 13px;
+    font-size: 13px;    
+}
+.container1 div, .container2 div{
+    margin-left: 20px;
+}
